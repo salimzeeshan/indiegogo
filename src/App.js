@@ -1,11 +1,21 @@
 import './App.css';
 import Navbar from './components/navbar';
+import AllRoutes from './routes/routes';
+import { Box } from "@chakra-ui/react"
+import { IconContext } from "react-icons";
+import Footer from './components/footer';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-    </div>
+    <IconContext.Provider value={{ color: "white", className: "global-class-name" }}>
+      <div className="App">
+        <Navbar />
+        <Box>
+          <AllRoutes />
+        </Box>
+        <Footer />
+      </div>
+    </IconContext.Provider>
   );
 }
 

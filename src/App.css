@@ -1,3 +1,101 @@
 .App {
   text-align: center;
 }
+
+.slider-left{
+  margin-right: 8px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slider-right {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slider-nav-container{
+  position: absolute;
+  z-index: 9;
+  display: flex;
+  left: 60px;
+  top: 450px;
+}
+
+.slider{
+  height: max-content;
+}
+
+.image{
+  object-fit: cover;
+  width: 100%;
+  height: 460px;
+  filter: brightness(50%);
+}
+
+.slider-text{
+  position: absolute;
+  top: 290px;
+  left: 60px;
+  color: white;
+  text-align: left;
+}
+
+.see-campaign:hover{
+  text-decoration: underline;
+}
+
+.see-campaign{
+  margin-top: 10px;
+}
+
+.pop-card:hover{
+  border: 1px solid black;
+  transform: scale(1.02);
+  transition: 300ms;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.pop-card{
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.coll-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.coll-img{
+  filter: brightness(80%);
+}
+
+.mail-icon{
+  width: 60px;
+  height: 60px;
+}
+
+.social-icons{
+  width: 22px;
+  height: 22px;
+}
+
+.staff-icons{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.explore-banner, .staff-banner, .learn-crowd{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
