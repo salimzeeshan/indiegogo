@@ -16,7 +16,7 @@ management software.
 Clone the project
 
 ```bash
-  git clone https://github.com/salimzeeshan/hike-haven.git
+  git clone https://github.com/salimzeeshan/indiegogo.git
 ```
 
 Install dependencies
